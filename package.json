@@ -1,0 +1,13 @@
+{
+  "name": "studiova-custom",
+  "version": "1.0.0",
+  "description": "Customized Studiova Bootstrap Template",
+  "scripts": {
+    "sass": "sass --watch assets/scss:assets/css",
+    "sass:build": "sass assets/scss:assets/css --style=compressed --no-source-map",
+    "serve": "cd html && python3 -m http.server 8000 --bind 127.0.0.1"
+  },
+  "devDependencies": {
+    "sass": "^1.77.0"
+  }
+}
